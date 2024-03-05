@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { add_Todo, delete_Todo,remove_Todo} from "../action";
+import { add_Todo, delete_Todo, remove_Todo } from "../action";
 
 const ToDo = () => {
   const [iteam, setIteam] = useState("");

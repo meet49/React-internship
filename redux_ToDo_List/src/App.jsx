@@ -1,4 +1,3 @@
-import React from 'react'
 import ToDo from './componets/ToDo'
 
 const App = () => {
