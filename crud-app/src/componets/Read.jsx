@@ -35,7 +35,10 @@ const Read = () => {
             {data.mobile}
           </div>
           <div className=" flex gap-9">
-            <Link to={`/edit/${id}`}className="bg-blue-700 rounded-md h-10 w-20 text-white text-center items-center text-2xl">
+            <Link
+              to={`/edit/${id}`}
+              className="bg-blue-700 rounded-md h-10 w-20 text-white text-center items-center text-2xl"
+            >
               Edit
             </Link>
             <Link

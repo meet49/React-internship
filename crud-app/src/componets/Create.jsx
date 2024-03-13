@@ -41,7 +41,7 @@ const Create = () => {
         }),
       }
     );
-    
+
     if (res.ok) {
       setUser({
         name: "",
