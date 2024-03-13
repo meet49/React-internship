@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./componets/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Create from "./componets/Create";

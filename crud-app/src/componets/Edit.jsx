@@ -1,5 +1,5 @@
-// Edit.js
-import React, { useState, useEffect } from "react";
+
+import { useState, useEffect } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
 const Edit = () => {
